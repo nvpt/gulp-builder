@@ -1,0 +1,25 @@
+.base-page {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+
+    &__top-part {
+
+    }
+
+    &__container {
+
+    }
+
+    
+    &__content {
+
+    }
+
+    &__bottom-part {
+
+    }
+
+}

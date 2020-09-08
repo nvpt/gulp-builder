@@ -1,0 +1,109 @@
+.g-blue-action {
+    color: $color-link;
+    fill: $color-link;
+    cursor: pointer;
+    text-decoration: none;
+    transition: fill $hover-transition-time, color $hover-transition-time;
+
+    use {
+        fill: $color-link;
+    }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        text-decoration: none;
+        color: $color-link-hover;
+        fill: $color-link-hover;
+
+        use {
+            fill: $color-link-hover;
+        }
+    }
+
+    &.disabled {
+        cursor: default;
+        opacity: 0.5;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            text-decoration: none;
+            color: $color-link;
+        }
+
+        * {
+            cursor: default !important;
+        }
+    }
+}
+
+.g-green-action {
+    color: $color-main;
+    fill: $color-main;
+    cursor: pointer;
+    text-decoration: none;
+    transition: fill $hover-transition-time, color $hover-transition-time;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        text-decoration: none;
+        color: $color-main-hover;
+        fill: $color-main-hover;
+    }
+
+    &.disabled {
+        cursor: default;
+        opacity: 0.5;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            text-decoration: none;
+            color: $color-main;
+        }
+
+        * {
+            cursor: default !important;
+        }
+    }
+}
+
+.g-red-action {
+    color: $color-alert;
+    fill: $color-alert;
+    cursor: pointer;
+    text-decoration: none;
+    transition: fill $hover-transition-time, color $hover-transition-time;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        text-decoration: none;
+        color: $color-alert-hover;
+        fill: $color-alert-hover;
+    }
+
+    &.disabled {
+        cursor: default;
+        opacity: 0.5;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            text-decoration: none;
+            color: $color-alert;
+        }
+
+        * {
+            cursor: default !important;
+        }
+    }
+}

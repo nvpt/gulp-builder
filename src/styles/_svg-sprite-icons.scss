@@ -1,0 +1,11 @@
+.svg-bell-icon-dims  {
+    fill: $color-link;
+    cursor: pointer;
+    transition: fill $hover-transition-time;
+
+    &:hover,
+    &:focus,
+    &:active {
+        fill: $color-link-hover;
+    }
+}
